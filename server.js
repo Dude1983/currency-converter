@@ -6,7 +6,7 @@ const { getRates, getSymbols, getHistoricalRate } = require('./lib/fixer-service
 const { convertCurrency } = require('./lib/free-currency-service');
 
 const app = express();
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 3000;
 
 
 // Set Public Folder as root
